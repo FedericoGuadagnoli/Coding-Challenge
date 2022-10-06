@@ -1,0 +1,103 @@
+/* Sfondo pagina */
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+/* Contenitore elementi body  */
+.container{
+  background: rgba(0, 0, 0, .6);
+  width: 1200px;
+  height: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5%;
+  border-radius: 2%;
+}
+
+/* Posizionamento Logo e Titolo */
+header{
+  padding-top: 9%;
+  text-align: center;
+}
+
+/*Titolo nell'header  */
+#Titolo{
+  color: lime;
+  font-family: verdana;
+  margin-top: -0%;
+}
+
+
+/* Tabella nav */
+nav{
+  background-color: lime;
+  margin-top: -1%;
+  margin-left: 8%;
+  margin-right: 8%;
+  padding: 1%;
+  text-align: center;
+}
+
+/* Testo in grassetto delle input nel nav  */
+input{
+  font-weight: bold;
+}
+
+/* Posizionamento main + Font e colore del testo */
+main{
+  color: white;
+  font-family: verdana;
+  margin-left: 8%;
+}
+
+/* Distanza fra sezioni */
+section{
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+
+/* Titolo delle sezioni */
+h2{
+  margin: 0;
+  display: inline-block;
+}
+
+/* paragrafo delle sezioni */
+p{
+  margin: 3px;
+}
+
+/* Tabelle carica batteria */
+.tabella1{
+  background-color: orange;
+  width: 350px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.tabella2{
+  background-color: lime;
+  width: 500px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.tabella3{
+  background-color: red;
+  width: 175px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+/* Posizionamento footer + font e colore del testo */
+footer{
+  text-align: center;
+  font-family: cursive;
+  color: lime;
+}
+
+/* Colore linea crediti */
+hr{
+  border: 2px solid lime;
+}
